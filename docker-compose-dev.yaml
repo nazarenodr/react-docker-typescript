@@ -1,0 +1,12 @@
+version: '3.6'
+services:
+  project-frontend:
+    build: 
+      context: ./
+      dockerfile: ./Dockerfile
+    # command: npm run dev
+    restart: always
+    ports:
+      - "8086:80"
+    volumes:
+      - ./:/usr/src/app/src
