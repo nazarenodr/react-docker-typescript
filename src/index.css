@@ -1,5 +1,32 @@
+@font-face {
+  font-family: "Neue-Hass-Display-Bold";
+  src: local("Neue-Hass-Display-Bold"),
+    url("../src/assets/fonts/NeueHaasDisplayBold.woff") format("woff");
+  font-weight: bold;
+}
+
+@font-face {
+  font-family: "Neue-Hass-Display-Medium";
+  src: local("Neue-Hass-Display-Medium"),
+    url("../src/assets/fonts/NeueHaasDisplayMedium.woff") format("woff");
+  font-weight: bold;
+}
+@font-face {
+  font-family: "Neue-Hass-Display-Thin";
+  src: local("Neue-Hass-Display-Thin"),
+    url("../src/assets/fonts/NeueHaasDisplayThin.woff") format("woff");
+  font-weight: bold;
+}
+@font-face {
+  font-family: "Neue-Hass-Display-Thin-Italic";
+  src: local("Neue-Hass-Display-Thin-Italic"),
+    url("../src/assets/fonts/NeueHaasDisplayThinItalic.woff") format("woff");
+  font-weight: bold;
+}
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: "Neue-Hass-Display-Medium";
+  letter-spacing: 1px;
 }

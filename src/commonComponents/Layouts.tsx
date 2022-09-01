@@ -1,6 +1,6 @@
 import styled from "styled-components";
 
-export const BlankSpace = styled.div<{ height?: number, width?:number }>`
+export const BlankSpace = styled.div<{ height?: number; width?: number }>`
   height: ${({ height }) => `${height}px` || "100%"};
   width: ${({ width }) => `${width}px` || "100%"};
 `;
@@ -12,7 +12,7 @@ export const CenterContainerColumn = styled.div`
 `;
 export const CenterContainerRow = styled.div`
   display: flex;
-  flex-direction: Row;
+  flex-direction: row;
   justify-content: center;
   align-items: center;
 `;

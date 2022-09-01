@@ -1,12 +1,13 @@
 import { CircularProgress } from "@mui/material";
 import styled from "styled-components";
+import { THEME } from "../helpers/theme";
 
 export default function Loader() {
   return (
     <Container>
       <CircularProgress
         sx={{
-          color: "#88e9f6",
+          color: THEME.colors.tertiary,
         }}
         size={100}
       />
@@ -16,9 +17,7 @@ export default function Loader() {
 
 const Container = styled.div`
   width: 100%;
-  height: 100vh;
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: #0771b8;
 `;

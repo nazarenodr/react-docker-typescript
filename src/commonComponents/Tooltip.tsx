@@ -1,4 +1,6 @@
 import styled from "styled-components";
+import { THEME } from "../helpers/theme";
+
 export default function Tooltip({
   children,
   text,
@@ -68,6 +70,6 @@ const TooltipText = styled.p`
   font-size: 10px;
   line-height: 10px;
   text-align: center;
-  color: #ffffff;
+  color: ${THEME.colors.white};
   z-index: 10;
 `;
